@@ -1,0 +1,342 @@
+<!doctype html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+  <title>亿灵软件开发联盟</title>
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp"/>
+  <link rel="icon" type="image/png" href="assets/i/favicon.png">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="icon" sizes="192x192" href="assets/i/app-icon72x72@2x.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+  <link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+  <meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+  <meta name="msapplication-TileColor" content="#0e90d2">
+  <link rel="stylesheet" href="assets/css/amazeui.min.css">
+  <link rel="stylesheet" href="assets/css/app.css">
+  <style>
+  .makespace{
+    display: block;
+    margin:10px 20px;
+    float: left;
+  }
+  .toclear{
+    overflow: hidden;
+  }
+  .article-param{
+    font-size: 1.4rem;
+    color:#999999;
+  }
+  .hope {
+      background: #3399ff;
+      padding: 50px 0;
+    }
+
+    .hope-img {
+      text-align: center;
+    }
+
+    .hope-hr {
+      border-color: #149C88;
+    }
+
+    .hope-title {
+      font-size: 140%;
+    }
+
+    .footer p {
+      color: #7f8c8d;
+      margin: 0;
+      padding: 15px 0;
+      text-align: center;
+      background: #2d3e50;
+    }
+
+    .am-leftside {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-left: 0;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100%;
+  max-width: 1200px;
+ }
+
+   .am-pic{
+    width:300px;
+    height:165px;
+   }
+   @media only screen and (min-width: 1200px) {
+      .blog-g-fixed {
+        max-width: 1200px;
+      }
+    }
+
+    @media only screen and (min-width: 641px) {
+      .blog-sidebar {
+        font-size: 1.4rem;
+      }
+    }
+
+    .blog-main {
+      padding: 20px 0;
+    }
+
+    .blog-title {
+      margin: 10px 0 20px 0;
+    }
+    .blog-title a:hover{
+      color: #3366ff;
+    }
+    .blog-meta {
+      font-size: 14px;
+      margin: 10px 0 20px 0;
+      color: #222;
+    }
+
+    .blog-meta a {
+      color: #27ae60;
+    }
+
+    .blog-pagination a {
+      font-size: 1.4rem;
+    }
+
+    .blog-team li {
+      padding: 4px;
+    }
+
+    .blog-team img {
+      margin-bottom: 0;
+    }
+
+    .blog-content img,
+    .blog-team img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .blog-footer {
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    .middle{
+      text-align: center;
+    }
+
+    .goright{
+      float: right;
+    }
+  </style>
+</head>
+<body>
+<header class="am-topbar ">
+  <!--<div class="am-container">-->
+    <h1 class="am-topbar-brand">
+      <a href="#">亿灵软件开发联盟</a>
+    </h1>
+
+    <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-secondary am-show-sm-only"
+            data-am-collapse="{target: '#collapse-head'}"><span class="am-sr-only">导航切换</span> <span
+        class="am-icon-bars"></span></button>
+
+    <div class="am-collapse am-topbar-collapse" id="collapse-head">
+      <ul class="am-nav am-nav-pills am-topbar-nav">
+        <li class="am-active"><a href="#">首页</a></li>
+        <li><a href="#">项目</a></li>
+        <li class="am-dropdown" data-am-dropdown>
+          <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+          <span class="am-icon-caret-down">导航栏</span>
+          </a>
+          <ul class="am-dropdown-content">
+            <li class="am-dropdown-header">标题</li>
+            <li><a href="#">1. 社团简介</a></li>
+            <li><a href="#">2. 活动内容</a></li>
+            <li><a href="#">3. 生活服务</a></li>
+            <li><a href="#">4. 技术文章</a></li>
+          </ul>
+        </li>
+      </ul>
+      
+     <form class="am-topbar-form am-topbar-left am-form-inline am-topbar-right" role="search">
+      <div class="am-form-group">
+        <input type="text" class="am-form-field am-input-sm" placeholder="搜索文章">
+      </div>
+      <button type="submit" class="am-btn am-btn-default am-btn-sm">搜索</button>
+     </form>
+
+      <div class="am-topbar-right">
+        <button class="am-btn am-btn-secondary am-topbar-btn am-btn-sm"><span class="am-icon-pencil"></span> 注册</button>
+      </div>
+
+      <div class="am-topbar-right">
+        <button class="am-btn am-btn-primary am-topbar-btn am-btn-sm"><span class="am-icon-user"></span> 登录</button>
+      </div>
+    </div>
+  <!--</div>-->
+</header>
+
+<div class="am-g am-g-fixed blog-g-fixed">
+  <div class="am-u-md-8">
+  <div class="toclear">
+    <button type="button" class="am-btn am-btn-primary am-btn-sm am-round makespace">美食</button>
+    <button type="button" class="am-btn am-btn-primary am-btn-sm am-round makespace">旅行</button>
+    <button type="button" class="am-btn am-btn-primary am-btn-sm am-round makespace">科技</button>
+    <button type="button" class="am-btn am-btn-primary am-btn-sm am-round makespace">前端</button>
+    <button type="button" class="am-btn am-btn-primary am-btn-sm am-round makespace">后端</button>
+    <button type="button" class="am-btn am-btn-primary am-btn-sm am-round makespace">编不出来了</button>
+    <button type="button" class="am-btn am-btn-primary am-btn-sm am-round makespace ">VR技术</button>
+
+  </div>
+  <div>
+    <article class="blog-main">
+      <h3 class="am-article-title blog-title">
+        <a href="#">VR技术介绍！</a>
+      </h3>
+      
+
+      <div class="am-g blog-content">
+        <div class="am-u-lg-8">
+          <p><!-- 本demo来自 http://blog.justfont.com/ -->VR(Virtual Reality，即虚拟现实，简称VR)，是由美国VPL公司创建人拉尼尔(Jaron Lanier)在20世纪80年代初提出的。</p>
+
+          <p>其具体内涵是:综合利用计算机图形系统和各种现实及控制等接口设备，在计算机上生成的、可交互的三维环境中提供沉浸感觉的技术。</p>
+        </div>
+        <div class="am-u-lg-4">
+          <p><img src="http://f.cl.ly/items/451O3X0g47320D203D1B/不夠活潑.jpg"></p>
+        </div>
+      </div>
+      <div class="am-g">
+        <div class="am-u-sm-12">
+          
+        </div>
+      </div>
+    </article>
+    <div class="article-param">
+      <p>阅读 1735 评论 48 点赞398</p>
+    </div>
+
+    <hr class="am-article-divider blog-hr">
+
+    <article class="blog-main">
+      <h3 class="am-article-title blog-title">
+        <a href="#">VR技术介绍！</a>
+      </h3>
+      
+
+      <div class="am-g blog-content">
+        <div class="am-u-lg-8">
+          <p><!-- 本demo来自 http://blog.justfont.com/ -->VR(Virtual Reality，即虚拟现实，简称VR)，是由美国VPL公司创建人拉尼尔(Jaron Lanier)在20世纪80年代初提出的。</p>
+
+          <p>其具体内涵是:综合利用计算机图形系统和各种现实及控制等接口设备，在计算机上生成的、可交互的三维环境中提供沉浸感觉的技术。</p>
+        </div>
+        <div class="am-u-lg-4">
+          <p><img src="assets\i\examples\t019ed51b2473e20751.jpg"></p>
+        </div>
+      </div>
+      <div class="am-g">
+        <div class="am-u-sm-12">
+          
+        </div>
+      </div>
+    </article>
+    <div class="article-param">
+      <p>阅读 1735 评论 48 点赞398</p>
+    </div>
+    <hr class="am-article-divider blog-hr">
+    <article class="blog-main">
+      <h3 class="am-article-title blog-title">
+        <a href="#">VR技术介绍！</a>
+      </h3>
+      
+
+      <div class="am-g blog-content">
+        <div class="am-u-lg-8">
+          <p><!-- 本demo来自 http://blog.justfont.com/ -->VR(Virtual Reality，即虚拟现实，简称VR)，是由美国VPL公司创建人拉尼尔(Jaron Lanier)在20世纪80年代初提出的。</p>
+
+          <p>其具体内涵是:综合利用计算机图形系统和各种现实及控制等接口设备，在计算机上生成的、可交互的三维环境中提供沉浸感觉的技术。</p>
+        </div>
+        <div class="am-u-lg-4">
+          <p><img src="assets\i\examples\p1153075313.jpg"></p>
+        </div>
+      </div>
+      <div class="am-g">
+        <div class="am-u-sm-12">
+          
+        </div>
+      </div>
+    </article>
+    <div class="article-param">
+      <p>阅读 1735 评论 48 点赞398</p>
+    </div>
+
+    <hr class="am-article-divider blog-hr">
+        <article class="blog-main">
+      <h3 class="am-article-title blog-title">
+        <a href="#">VR技术介绍！</a>
+      </h3>
+      
+
+      <div class="am-g blog-content">
+        <div class="am-u-lg-8">
+          <p><!-- 本demo来自 http://blog.justfont.com/ -->VR(Virtual Reality，即虚拟现实，简称VR)，是由美国VPL公司创建人拉尼尔(Jaron Lanier)在20世纪80年代初提出的。</p>
+
+          <p>其具体内涵是:综合利用计算机图形系统和各种现实及控制等接口设备，在计算机上生成的、可交互的三维环境中提供沉浸感觉的技术。</p>
+        </div>
+        <div class="am-u-lg-4">
+          <p><img src="http://f.cl.ly/items/451O3X0g47320D203D1B/不夠活潑.jpg"></p>
+        </div>
+      </div>
+    </article>
+    <div class="article-param">
+      <p>阅读 1735 评论 48 点赞398</p>
+    </div>
+
+    </div>
+     <hr class="am-article-divider blog-hr">
+    <div class="middle">
+      <a href="###" class="middle">下拉加载更多内容</a>
+    </div>
+    <hr class="am-article-divider blog-hr">
+    <ul class="am-pagination blog-pagination">
+      <li class="am-pagination-prev"><a href="">&laquo; 上一页</a></li>
+      <li class="am-pagination-next"><a href="">下一页 &raquo;</a></li>
+    </ul>
+  </div>
+
+
+      
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+
+<footer class="footer">
+  <p>友情链接       <a href="http://www.yunshipei.com" target="_blank">亿灵首页|</a>南开主页|<a
+      href="http://opensource.org/licenses/MIT" target="_blank">教育在线|</a>南开大学软件学院</p>
+</footer>
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<!--[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+<script src="assets/js/amazeui.min.js"></script>
+</body>
+</html>
